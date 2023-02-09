@@ -1,0 +1,27 @@
+.list-card {
+    background-color: #fcee84;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+.table-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.table-details {
+    text-align: center;
+}
+
+.my-list {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: 0;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+    color: #000c;
+}

@@ -1,0 +1,55 @@
+.nav {
+    background-color: #000c;
+}
+
+.coral-logo {
+    // position: absolute;
+    inset: 0px;
+    margin: 0 0 0 6rem;
+    box-sizing: border-box;
+    border: none;
+    padding: 0px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.top {
+    display: flex;
+    background-color: #000c;
+    height: 2rem;
+    align-items: center;
+}
+
+.topLeft {
+    flex-grow: 5;
+}
+
+.topRight {
+    flex-grow: 5;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.topListItem {
+    margin: 0 2rem 0 0;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+.topSearchIcon{
+    color: #fff;
+}
+.top-list {
+    display: flex;
+    margin: 0 2rem 0 0;
+    float: right;
+}
