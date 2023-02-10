@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
-import './Login.scss';
 import { UserContext } from "../../../Context/UserContext";
+import './Login.scss';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -12,9 +12,9 @@ const Login = () => {
     e.preventDefault();
     const newEntry = { email: email, password: password };
     if (newEntry.email === "demo@coralmango.com" && newEntry.password === "demo123") {
-      console.log("Home page!!");
       setUser(true);
       setAuthError(false);
+
     }
     else {
       setAuthError(true);
@@ -23,7 +23,6 @@ const Login = () => {
 
   return (
     <div className="login">
-
       <div className="container">
         <form onSubmit={handleSubmit}>
           <h1>Sign In</h1>

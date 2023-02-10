@@ -5,7 +5,7 @@ import "./List.scss";
 const List = () => {
 
   const [query, setQuery] = useState("");
-  const keys = ["id","name", "age","occupation"];
+  const keys = ["name", "age","occupation"];
 
   const Search = (data) => {
     return data?.filter((item) => keys.some((key) => 

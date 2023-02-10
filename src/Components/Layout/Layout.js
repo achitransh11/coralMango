@@ -5,12 +5,11 @@ import Login from "../Pages/Login/Login";
 import NavBar from './NavBar/NavBar';
 import List from "../Pages/List/List";
 import Card from '../Pages/Card/Card';
-import Footer from './Footer/Footer';
 import {UserContext} from "../../Context/UserContext";
 
 const Layout = () => {
   const {user,setUser} = useContext(UserContext);
-  console.log("User = ",user);
+
   return (
     <>
       <NavBar />
@@ -19,9 +18,7 @@ const Layout = () => {
         <Route path="/login" element={user === true ? <Home /> : <Login />} />
         <Route path="/list" element={user === true? <List />: <Login />} />
         <Route path="/card" element={user === true? <Card />: <Login />} />
-        {/* <Route path="/card" element={user === true? <Card />: <Login />} /> */}
       </Routes>
-      <Footer />
     </>
   )
 }

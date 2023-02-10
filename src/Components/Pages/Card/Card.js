@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Card.scss";
 import { Data } from '../List/Users';
+
 const Card = () => {
     return (
         <>

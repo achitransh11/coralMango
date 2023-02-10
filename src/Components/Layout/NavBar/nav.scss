@@ -3,7 +3,6 @@
 }
 
 .coral-logo {
-    // position: absolute;
     inset: 0px;
     margin: 0 0 0 6rem;
     box-sizing: border-box;
@@ -41,13 +40,15 @@ li {
 
 .topListItem {
     margin: 0 2rem 0 0;
+    font: bolder;
     list-style-type: none;
     cursor: pointer;
-
 }
-.topSearchIcon{
+
+.topSearchIcon {
     color: #fff;
 }
+
 .top-list {
     display: flex;
     margin: 0 2rem 0 0;
