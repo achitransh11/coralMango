@@ -13,7 +13,7 @@ export const Data = [
     }, {
         id:"3",
         name: "Bob Smith",
-        age: "45",
+        age: "4",
         occupation: "Manager"
     }
     , {

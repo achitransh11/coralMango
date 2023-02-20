@@ -16,7 +16,7 @@ const Card = ({ data, query }) => {
                             />
                         </div>
                         <div className='card-details'>
-                            <ul key={item.id}>
+                            <ul key={item.id} className="item-style">
                                 <li>{item.name}</li>
                                 <li>{item.age}</li>
                                 <li>{item.occupation}</li>
