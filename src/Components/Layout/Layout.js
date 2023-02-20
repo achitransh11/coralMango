@@ -4,7 +4,6 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import NavBar from './NavBar/NavBar';
 import List from "../Pages/List/List";
-import Card from '../Pages/Card/Card';
 import {UserContext} from "../../Context/UserContext";
 
 const Layout = () => {
