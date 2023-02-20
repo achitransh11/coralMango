@@ -21,7 +21,7 @@ const NavBar = () => {
 
         <div className='topRight'>
           <ul className='top-list'>
-            <li className='topListItem'><Link className="linkTop" to="/list" style={{ textDecoration: "none" }}>List</Link></li>
+            <li className='topListItem'><Link className="linkTop" to="/table" style={{ textDecoration: "none" }}>List</Link></li>
             <li className='topListItem'><Link className="linkTop" to="/card" style={{ textDecoration: "none" }}>Card</Link></li>
             <li className='topListItem'>
               {user && <Link className="linkTop" to="/login" style={{ textDecoration: "none" }} onClick={() => setUser(false)}>Sign Out</Link>}</li>

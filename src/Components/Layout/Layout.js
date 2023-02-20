@@ -16,8 +16,8 @@ const Layout = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={user === true ? <Home /> : <Login />} />
-        <Route path="/list" element={user === true? <List />: <Login />} />
-        <Route path="/card" element={user === true? <Card />: <Login />} />
+        <Route path="/table" element={user === true? <List />: <Login />} />
+        <Route path="/card" element={user === true? <List />: <Login />} />
       </Routes>
     </>
   )
